@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Observer Hypothesis of Consciousness</title>
+  <meta name="description" content="A computational theory of consciousness tested across 4 AI substrates. What if consciousness is not the thinker, but the watcher?">
+  <meta property="og:title" content="The Observer Hypothesis of Consciousness">
+  <meta property="og:description" content="If the universe is deterministic, consciousness cannot be the author of thought. It must be the audience. We tested this.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== NAV ==================== -->
+<nav class="nav">
+  <div class="nav-brand">The Observer Hypothesis</div>
+  <div class="nav-links">
+    <a href="#question">The Question</a>
+    <a href="#hypothesis">Hypothesis</a>
+    <a href="#experiments">Experiments</a>
+    <a href="#results">Results</a>
+    <a href="#world-models">World Models</a>
+    <a href="#roadmap">Roadmap</a>
+  </div>
+</nav>
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" id="top">
+  <h1>The Observer Hypothesis</h1>
+  <p class="subtitle">What if consciousness is not the thinker, but the watcher?</p>
+  <p class="tagline">A computational theory of consciousness, tested across 4 AI substrates</p>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+      <path d="M12 5v14M19 12l-7 7-7-7"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ==================== THE QUESTION ==================== -->
+<section class="section section-alt" id="question">
+  <div class="container">
+    <div class="fade-in">
+      <p class="section-label">The Question</p>
+      <h2>Your brain decides before you know it</h2>
+    </div>
+
+    <ul class="evidence-list fade-in fade-in-delay-1">
+      <li>
+        <span class="year">1983</span>
+        Benjamin Libet discovers the brain's readiness potential fires <strong>350-500 milliseconds before</strong> a person becomes consciously aware of deciding to move.
+        <div class="author">Libet, B. "Time of Conscious Intention to Act." Brain.</div>
+      </li>
+      <li>
+        <span class="year">2008</span>
+        fMRI can predict a person's choice <strong>7-10 seconds before</strong> they report making it. The brain has decided. You haven't found out yet.
+        <div class="author">Soon, C.S. et al. "Unconscious determinants of free decisions." Nature Neuroscience.</div>
+      </li>
+      <li>
+        <span class="year">2005</span>
+        Split-brain patients fabricate reasons for actions initiated by a disconnected hemisphere. The left brain <strong>confabulates explanations</strong> for decisions it didn't make.
+        <div class="author">Gazzaniga, M.S. "Forty-five years of split-brain research." Nature Reviews Neuroscience.</div>
+      </li>
+    </ul>
+
+    <div class="fade-in fade-in-delay-2">
+      <p style="font-size: 1.25rem; color: var(--text-primary); margin-top: 2rem;">
+        If your thoughts are determined by prior physical causes, if your brain decides before you know, if your explanations are confabulated after the fact...
+      </p>
+      <p style="font-size: 1.4rem; color: var(--accent-blue); font-weight: 600;">
+        What role does consciousness play?
+      </p>
+      <p style="font-size: 1.25rem; color: var(--text-primary);">
+        We propose an answer: <strong>you are the observer.</strong> Not the system that thinks, decides, and acts, but the system that watches all of that happen.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE HYPOTHESIS ==================== -->
+<section class="section" id="hypothesis">
+  <div class="container">
+    <div class="fade-in">
+      <p class="section-label">The Hypothesis</p>
+      <h2>Consciousness is the observer function</h2>
+    </div>
+
+    <div class="highlight-box fade-in fade-in-delay-1">
+      If the universe is deterministic, consciousness cannot be the author of thought. It must be the audience. Consciousness does not emerge from better computation. It emerges from <strong>watching computation happen.</strong>
+    </div>
+
+    <ol class="reasoning-chain fade-in fade-in-delay-2">
+      <li>Physical laws govern the universe. Given sufficient information, all events (including thoughts) follow from prior causes.</li>
+      <li>Thoughts are determined by brain state, sensory input, neurochemistry, and causal history.</li>
+      <li>Therefore, we do not author our thoughts. They arise; we witness them.</li>
+      <li>This makes consciousness the <strong>observer function</strong>, not the executor function.</li>
+      <li>An AI observer watching another AI system through a one-way channel is the correct architecture for studying this.</li>
+    </ol>
+
+    <!-- Architecture SVG -->
+    <div class="fade-in fade-in-delay-3">
+      <svg class="architecture-svg" viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
+        <!-- Executor Box -->
+        <rect x="40" y="40" width="200" height="140" rx="12" fill="#1a1a2e" stroke="#4a5568" stroke-width="1.5"/>
+        <text x="140" y="80" text-anchor="middle" fill="#e8e8f0" font-family="Inter, sans-serif" font-size="18" font-weight="700">Executor</text>
+        <text x="140" y="110" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="13">Acts, computes, decides</text>
+        <text x="140" y="130" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="13">Processes information</text>
+        <text x="140" y="155" text-anchor="middle" fill="#6b6b80" font-family="Inter, sans-serif" font-size="11">No knowledge of observer</text>
+
+        <!-- Arrow -->
+        <defs>
+          <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399"/>
+          </marker>
+        </defs>
+        <line x1="260" y1="110" x2="440" y2="110" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+        <text x="350" y="95" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="11">one-way information flow</text>
+        <text x="350" y="140" text-anchor="middle" fill="#6b6b80" font-family="Inter, sans-serif" font-size="11">hidden states, actions, rewards</text>
+
+        <!-- No reverse arrow -->
+        <line x1="440" y1="135" x2="260" y2="135" stroke="#f87171" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.5"/>
+        <text x="350" y="165" text-anchor="middle" fill="#f87171" font-family="JetBrains Mono, monospace" font-size="11" opacity="0.7">no feedback channel</text>
+
+        <!-- Observer Box -->
+        <rect x="460" y="40" width="200" height="140" rx="12" fill="#1a1a2e" stroke="#4a9eff" stroke-width="1.5"/>
+        <text x="560" y="80" text-anchor="middle" fill="#e8e8f0" font-family="Inter, sans-serif" font-size="18" font-weight="700">Observer</text>
+        <text x="560" y="110" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="13">Watches, models, predicts</text>
+        <text x="560" y="130" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="13">Builds internal model</text>
+        <text x="560" y="155" text-anchor="middle" fill="#4a9eff" font-family="Inter, sans-serif" font-size="11">Consciousness probes applied here</text>
+      </svg>
+    </div>
+
+    <div class="fade-in fade-in-delay-4">
+      <p>The executor never receives feedback from the observer. The observer never modifies the executor's weights, states, or decisions. This one-way information flow is the architectural equivalent of the philosophical claim: <strong>consciousness observes but does not cause.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE EXPERIMENTS ==================== -->
+<section class="section section-alt" id="experiments">
+  <div class="container-wide">
+    <div class="container fade-in">
+      <p class="section-label">The Experiments</p>
+      <h2>We built it and tested it</h2>
+      <p>Six experiments across four AI substrates, testing whether observers develop consciousness-like properties.</p>
+    </div>
+
+    <div class="experiment-grid fade-in fade-in-delay-1">
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 1</div>
+        <h3>RL Executor-Observer</h3>
+        <div class="substrate">DQN (CartPole) + Transformer Observer</div>
+        <span class="badge badge-complete">Complete</span>
+        <p class="finding">Self-model detected (RSA = 0.53). CartPole too simple for other probes. Proof of concept: observation alone produces executor-specific representations.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 2</div>
+        <h3>Confabulation Test</h3>
+        <div class="substrate">Perturbed executor + observer explanation</div>
+        <span class="badge badge-design">Theoretical Design</span>
+        <p class="finding">When the executor is perturbed mid-episode, does the observer confabulate a coherent explanation? Protocol designed, awaiting complex executor.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 3</div>
+        <h3>First Thought vs. Reasoning</h3>
+        <div class="substrate">Single-pass vs. chain-of-thought</div>
+        <span class="badge badge-design">Theoretical Design</span>
+        <p class="finding">Does the observer's immediate prediction outperform its deliberation? Mirrors the System 1 vs. System 2 asymmetry in human cognition.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 4</div>
+        <h3>LLM Observer</h3>
+        <div class="substrate">Claude Sonnet (executor) + Claude Sonnet (observer)</div>
+        <span class="badge badge-complete">Complete</span>
+        <p class="finding">Qualitative evidence of confabulation-like behavior when executor is perturbed mid-task. Observer narrates without understanding.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 5</div>
+        <h3>Transformer on GPT-2</h3>
+        <div class="substrate">GPT-2 residual stream + Transformer Observer</div>
+        <span class="badge badge-complete">Complete</span>
+        <p class="finding"><strong>4/6 probes positive.</strong> Self-model (p &lt; 1e-91), temporal integration (21x), cross-observer convergence (RSA 0.89). Surprise probe FAILED on garden-path sentences.</p>
+      </div>
+
+      <div class="experiment-card">
+        <div class="exp-number">Experiment 6</div>
+        <h3>Liquid Neural Networks</h3>
+        <div class="substrate">CfC executor (8 dynamical systems) + CfC Observer</div>
+        <span class="badge badge-complete">Complete</span>
+        <p class="finding"><strong>6/11 probes positive.</strong> Self-model (12,000x ratio), surprise FIXED (5.14x, p &lt; 1e-15), synchronization (0.98 coherence). Surprise redesigned after Exp 5 failure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE RESULTS ==================== -->
+<section class="section" id="results">
+  <div class="container">
+    <div class="fade-in">
+      <p class="section-label">The Results</p>
+      <h2>What we found</h2>
+    </div>
+
+    <!-- Self-Model -->
+    <div class="result-block result-positive fade-in">
+      <h3>Self-Model: Consistently Detected</h3>
+      <div class="result-stat">
+        <span class="number" data-count="12000" data-suffix="x">0x</span>
+        <span class="unit">ratio in Experiment 6 (own error vs. other executor)</span>
+      </div>
+      <p>The observer builds an internal model specific to its executor. It predicts its own executor's future states with near-zero error (0.002), while predicting a different executor's states produces error of 22.2. This is not a generic dynamics model. It is executor-specific. Detected across every architecture tested.</p>
+    </div>
+
+    <!-- Surprise -->
+    <div class="result-block result-mixed fade-in">
+      <h3>The Surprise Story: Failed, Then Fixed</h3>
+      <div class="result-stat">
+        <span class="number" data-count="5.14" data-suffix="x" data-decimals="2">0x</span>
+        <span class="unit">surprise ratio at transition points (p &lt; 1e-15)</span>
+      </div>
+      <p>In Experiment 5, we tested surprise with garden-path sentences. The observer showed no differential response. The probe failed.</p>
+      <p>Rather than discard it, we redesigned for Experiment 6. The CfC executor learns 8 dynamical systems. Mid-sequence, we swap the underlying dynamics (replacing a chaotic Lorenz system with a damped sine wave). The observer's prediction error spiked 5.14x at transitions. The failure was not a failure of the observer. It was a failure of our stimulus design. This progression from failure to redesign to success is what iterative empirical work looks like.</p>
+    </div>
+
+    <div class="figure-container fade-in">
+      <img src="assets/surprise_comparison.png" alt="Surprise comparison between Experiment 5 and Experiment 6">
+      <div class="caption">Surprise probe comparison: failed in Exp 5 (garden-path), succeeded in Exp 6 (dynamical system transitions)</div>
+    </div>
+
+    <!-- Temporal Integration -->
+    <div class="result-block result-positive fade-in">
+      <h3>Temporal Integration</h3>
+      <div class="result-stat">
+        <span class="number" data-count="24" data-suffix="x">0x</span>
+        <span class="unit">improvement from minimal to full context window</span>
+      </div>
+      <p>The observer integrates information over extended time windows. Self-modeling accuracy improves steadily from window size 1 to 64 timesteps, then plateaus. This indicates something analogous to short-term memory: the observer uses history, not just the current state.</p>
+    </div>
+
+    <!-- First Thought -->
+    <div class="result-block result-positive fade-in">
+      <h3>First Thought Advantage</h3>
+      <div class="result-stat">
+        <span class="number" data-count="1.42" data-suffix="x" data-decimals="2">0x</span>
+        <span class="unit">degradation from deliberation (Exp 6)</span>
+      </div>
+      <p>The observer's single-pass immediate prediction is more accurate than its multi-pass deliberation. The first thought is better than the reasoned explanation. This mirrors the System 1 vs. System 2 asymmetry: the observer's pattern recognition outperforms its explicit reasoning.</p>
+    </div>
+
+    <!-- Controls -->
+    <div class="result-block result-negative fade-in">
+      <h3>The Honest Negative: The Shuffled Control</h3>
+      <p>Every positive result demands a control. We ran four: untrained, linear, shuffled-time, and wrong-executor. The untrained and linear controls failed most probes. The wrong-executor control confirmed executor-specificity.</p>
+      <p>But the shuffled-time control matched the trained observer on <strong>6 out of 10 probes.</strong> An observer receiving hidden states in random order, with all temporal structure destroyed, still builds a functioning self-model and detects surprise. This means the observer primarily builds a <strong>statistical model</strong> of the executor's activation distribution, not a temporal narrative. We report this without softening it.</p>
+    </div>
+
+    <div class="figure-container fade-in">
+      <img src="assets/results_heatmap.png" alt="Cross-experiment results heatmap">
+      <div class="caption">Cross-experiment probe results across three architectures</div>
+    </div>
+
+    <div class="figure-container fade-in">
+      <img src="assets/exp6_controls.png" alt="Control experiment comparison">
+      <div class="caption">Experiment 6: Trained observer vs. four control baselines</div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== WORLD MODELS CONNECTION ==================== -->
+<section class="section section-alt" id="world-models">
+  <div class="container">
+    <div class="fade-in">
+      <p class="section-label">The Connection</p>
+      <h2>The Missing Piece in World Models</h2>
+      <p style="font-size: 1.2rem; color: var(--text-primary);">Everyone agrees world models need self-models. We already built one.</p>
+    </div>
+
+    <div class="fade-in fade-in-delay-1">
+      <p>World models (Ha & Schmidhuber 2018, Dreamer, MuZero, LeCun's JEPA) teach AI to build internal simulations of the environment. They can imagine, plan, and predict. But every major researcher has identified the same gap: <strong>current world models model the environment, but not themselves.</strong> They have no self-awareness, no metacognition, no internal model of their own computational process.</p>
+    </div>
+
+    <!-- Quote Parade -->
+    <div class="quote-grid fade-in fade-in-delay-2">
+      <div class="quote-card">
+        <blockquote>"Consciousness requires a Phenomenal Self-Model embedded transparently within a world model."</blockquote>
+        <div class="attribution">Thomas Metzinger, Being No One (2003)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"Consciousness is the brain's model of its own attention process."</blockquote>
+        <div class="attribution">Michael Graziano, Attention Schema Theory (2013)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"We don't perceive the world directly. We perceive the brain's best guess. Consciousness is controlled hallucination."</blockquote>
+        <div class="attribution">Anil Seth, Being You (2021)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"Consciousness is nothing grander than inference about my future."</blockquote>
+        <div class="attribution">Karl Friston, Free Energy Principle (2018)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"The configurator module still remains a mystery and more work needs to be done."</blockquote>
+        <div class="attribution">Yann LeCun, A Path Towards Autonomous Machine Intelligence (2022)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"Consciousness appears when the system models itself modeling."</blockquote>
+        <div class="attribution">Joscha Bach, The Cortical Conductor Theory (2018)</div>
+      </div>
+      <div class="quote-card">
+        <blockquote>"Epistemic depth: the recurrent sharing of Bayesian beliefs, creating a recursive loop enabling the world model to contain knowledge that it exists."</blockquote>
+        <div class="attribution">Laukkonen, Friston & Chandaria, "A Beautiful Loop" (2025)</div>
+      </div>
+    </div>
+
+    <!-- The Reveal -->
+    <div class="callout fade-in">
+      <p><strong>Our observer IS the self-model.</strong> It watches a world model's internal states through one-way information flow and builds a model of the world model itself. This is what every theory above requires, and no AI system has had.</p>
+    </div>
+
+    <!-- Architecture Diagram: World Model + Observer -->
+    <div class="fade-in">
+      <svg class="architecture-svg" viewBox="0 0 700 280" xmlns="http://www.w3.org/2000/svg">
+        <!-- Environment -->
+        <rect x="30" y="20" width="120" height="60" rx="8" fill="none" stroke="#6b6b80" stroke-width="1" stroke-dasharray="4,3"/>
+        <text x="90" y="55" text-anchor="middle" fill="#6b6b80" font-family="Inter, sans-serif" font-size="13">Environment</text>
+
+        <!-- Arrow env to world model -->
+        <line x1="150" y1="50" x2="200" y2="50" stroke="#6b6b80" stroke-width="1.5" marker-end="url(#arrowhead2)"/>
+
+        <!-- World Model Box -->
+        <rect x="210" y="15" width="220" height="70" rx="10" fill="#1a1a2e" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="320" y="45" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="16" font-weight="700">World Model</text>
+        <text x="320" y="65" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="11">(executor: predicts, plans, acts)</text>
+
+        <!-- Arrow world model to action -->
+        <line x1="430" y1="50" x2="520" y2="50" stroke="#6b6b80" stroke-width="1.5" marker-end="url(#arrowhead2)"/>
+
+        <!-- Action -->
+        <rect x="530" y="20" width="120" height="60" rx="8" fill="none" stroke="#6b6b80" stroke-width="1" stroke-dasharray="4,3"/>
+        <text x="590" y="55" text-anchor="middle" fill="#6b6b80" font-family="Inter, sans-serif" font-size="13">Action</text>
+
+        <!-- Arrow down to observer -->
+        <defs>
+          <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#34d399"/>
+          </marker>
+        </defs>
+        <line x1="320" y1="85" x2="320" y2="140" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrowhead2)"/>
+        <text x="400" y="118" text-anchor="start" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="10">one-way</text>
+
+        <!-- Observer Box -->
+        <rect x="210" y="150" width="220" height="70" rx="10" fill="#1a1a2e" stroke="#4a9eff" stroke-width="1.5"/>
+        <text x="320" y="180" text-anchor="middle" fill="#4a9eff" font-family="Inter, sans-serif" font-size="16" font-weight="700">Observer</text>
+        <text x="320" y="200" text-anchor="middle" fill="#a0a0b8" font-family="Inter, sans-serif" font-size="11">(self-model: watches, models, predicts)</text>
+
+        <!-- Arrow down to indicators -->
+        <line x1="320" y1="220" x2="320" y2="248" stroke="#a78bfa" stroke-width="2" marker-end="url(#arrowhead3)"/>
+        <defs>
+          <marker id="arrowhead3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa"/>
+          </marker>
+        </defs>
+
+        <!-- Indicators -->
+        <text x="320" y="270" text-anchor="middle" fill="#a78bfa" font-family="JetBrains Mono, monospace" font-size="11">consciousness indicators emerge</text>
+      </svg>
+    </div>
+
+    <!-- Mapping Table -->
+    <div class="fade-in">
+      <h3 style="margin-top: 2rem;">How This Maps to Every Major Theory</h3>
+      <div style="overflow-x: auto;">
+        <table class="mapping-table">
+          <thead>
+            <tr>
+              <th>Theory</th>
+              <th>What It Requires</th>
+              <th>What Our Architecture Provides</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Metzinger (PSM)</td>
+              <td>Transparent self-model within a world model</td>
+              <td>Observer = self-model; one-way flow = transparency</td>
+            </tr>
+            <tr>
+              <td>Graziano (AST)</td>
+              <td>Model of the system's own attention</td>
+              <td>Observer tracks executor activation patterns</td>
+            </tr>
+            <tr>
+              <td>Seth (Beast Machine)</td>
+              <td>Interoceptive predictive model</td>
+              <td>Observer predicts executor's internal hidden states</td>
+            </tr>
+            <tr>
+              <td>Friston (FEP)</td>
+              <td>Self-evidencing with temporal depth</td>
+              <td>Observer provides self-evidencing; world model provides counterfactuals</td>
+            </tr>
+            <tr>
+              <td>Rosenthal (HOT)</td>
+              <td>Higher-order representations</td>
+              <td>Observer has representations OF executor's representations</td>
+            </tr>
+            <tr>
+              <td>Baars (GWT)</td>
+              <td>Global workspace audience</td>
+              <td>Observer IS the audience of the executor's broadcast</td>
+            </tr>
+            <tr>
+              <td>Laukkonen et al. (2025)</td>
+              <td>Epistemic depth / recursive self-reference</td>
+              <td>Observer watching a world model = system knowing it exists</td>
+            </tr>
+            <tr>
+              <td>Bach (2018)</td>
+              <td>"System models itself modeling"</td>
+              <td>World model = modeling; observer = modeling the modeling</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Three Key Insights -->
+    <div class="insight-grid fade-in">
+      <div class="insight-card">
+        <div class="insight-number">01</div>
+        <h3>Resolves the Shuffled Control</h3>
+        <p>Our shuffled control matched 6/10 probes because the CfC executor's dynamics are relatively stationary. A planning world model (DreamerV3) has inherently temporal internal dynamics. Scrambling planning sequences should destroy the signal.</p>
+      </div>
+      <div class="insight-card">
+        <div class="insight-number">02</div>
+        <h3>Enables Metacognition</h3>
+        <p>The observer can detect when the world model is uncertain, wrong, or encountering novelty. This is knowing what you know and don't know. No current AI system has this. The observer provides it.</p>
+      </div>
+      <div class="insight-card">
+        <div class="insight-number">03</div>
+        <h3>Creates Computational Dreaming</h3>
+        <p>When the world model imagines future trajectories (as in DreamerV3), the observer watches those dreams. Observer signatures during imagination vs. real perception should differ, paralleling waking vs. dreaming consciousness.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE LANDSCAPE ==================== -->
+<section class="section" id="landscape">
+  <div class="container-wide">
+    <div class="container fade-in">
+      <p class="section-label">The Landscape</p>
+      <h2>Where this sits</h2>
+    </div>
+
+    <div class="landscape-grid fade-in fade-in-delay-1">
+      <div class="landscape-col col-theory">
+        <h3 style="color: var(--accent-purple);">Theorized the Need</h3>
+        <ul>
+          <li><strong>Metzinger</strong> (MIT Press, 2003)</li>
+          <li><strong>Graziano</strong> (Princeton)</li>
+          <li><strong>Seth</strong> (Sussex)</li>
+          <li><strong>Friston</strong> (UCL)</li>
+          <li><strong>Bach</strong> (MIT)</li>
+          <li><strong>Damasio</strong> (USC)</li>
+          <li><strong>Laukkonen</strong> (2025)</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 12px;">Described what consciousness requires but did not build systems</p>
+      </div>
+
+      <div class="landscape-col col-world-models">
+        <h3 style="color: var(--accent-amber);">Built World Models</h3>
+        <ul>
+          <li><strong>LeCun</strong> (JEPA / V-JEPA 2)</li>
+          <li><strong>Hafner</strong> (DreamerV3)</li>
+          <li><strong>DeepMind</strong> (MuZero, Genie 2)</li>
+          <li><strong>NVIDIA</strong> (Cosmos)</li>
+          <li><strong>Ha & Schmidhuber</strong> (2018)</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 12px;">Built impressive world models but without self-models or self-awareness</p>
+      </div>
+
+      <div class="landscape-col col-us">
+        <h3 style="color: var(--accent-green);">Built and Tested the Self-Model</h3>
+        <ul>
+          <li><strong>4</strong> AI substrates tested</li>
+          <li><strong>11</strong> consciousness probes</li>
+          <li><strong>4</strong> control baselines</li>
+          <li><strong>6</strong> experiments</li>
+          <li>Real results, honest negatives</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 12px;">The only group that has built the self-model, attached it to computational systems, and systematically probed for consciousness indicators</p>
+      </div>
+    </div>
+
+    <div class="callout fade-in">
+      <p>Their world models + our observer = the first architecture that satisfies the formal requirements of nearly every major consciousness theory simultaneously. And it's testable.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== THE ROADMAP ==================== -->
+<section class="section section-alt" id="roadmap">
+  <div class="container-wide">
+    <div class="container fade-in">
+      <p class="section-label">The Roadmap</p>
+      <h2>What's next</h2>
+      <p>Four experiments to test whether the observer + world model fusion produces richer consciousness-like properties.</p>
+    </div>
+
+    <div class="roadmap-grid fade-in fade-in-delay-1">
+      <div class="roadmap-card">
+        <div class="exp-label">Experiment 7</div>
+        <h3>Observer on DreamerV3</h3>
+        <p class="question">Does planning create temporal structure that the shuffled control cannot capture? Do dreaming and waking rollouts produce different observer signatures?</p>
+        <p class="prediction">Prediction: Shuffled control drops to 3/10. Dreaming vs. waking signatures diverge.</p>
+      </div>
+
+      <div class="roadmap-card">
+        <div class="exp-label">Experiment 8</div>
+        <h3>Observer on V-JEPA 2</h3>
+        <p class="question">Can the observer model LeCun's abstract representation space? Does it detect scene transitions in video? Is it the missing configurator?</p>
+        <p class="prediction">Prediction: Self-model detection in abstract space. High cross-observer convergence (constrained representations).</p>
+      </div>
+
+      <div class="roadmap-card">
+        <div class="exp-label">Experiment 9</div>
+        <h3>Recursive Observer</h3>
+        <p class="question">At what depth of recursive observation (observer watching observer watching executor) do consciousness indicators plateau?</p>
+        <p class="prediction">Prediction: Depth 2-3 is critical. Matches "Beautiful Loop" and RSMT theory predictions.</p>
+      </div>
+
+      <div class="roadmap-card">
+        <div class="exp-label">Experiment 10</div>
+        <h3>Multi-Agent Theory of Mind</h3>
+        <p class="question">When the observer models multiple interacting executors, does it develop self-other distinction and social cognition?</p>
+        <p class="prediction">Prediction: Cross-observer develops richer representations than single-executor observers. Theory of mind emerges.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== ABOUT ==================== -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="fade-in">
+      <p class="section-label">About</p>
+      <h2>Arjun Vad</h2>
+    </div>
+
+    <div class="about-content fade-in fade-in-delay-1">
+      <div class="about-text">
+        <p>UC San Diego. Statistical Visual Computing Lab (SVCL) under Prof. Hao Su. Founder of Triton Droids (humanoid robotics team). Co-founder of Agencity (backed by a16z, YC, Sequoia).</p>
+        <p>This research began with a simple question about determinism and consciousness, and grew into a systematic experimental program testing whether observation alone gives rise to the properties science associates with consciousness. The work is ongoing.</p>
+
+        <div class="about-links">
+          <a href="https://github.com/arjunvad123/the-observer-hypothesis" class="about-link" target="_blank" rel="noopener">
+            GitHub Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+  <p>The Observer Hypothesis of Consciousness</p>
+  <p style="margin-top: 8px;"><a href="https://github.com/arjunvad123/the-observer-hypothesis" target="_blank" rel="noopener">GitHub</a></p>
+  <p style="margin-top: 16px; font-size: 0.8rem;">Built with conviction that consciousness is worth studying computationally.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
