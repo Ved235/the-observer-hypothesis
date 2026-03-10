@@ -46,6 +46,56 @@
 
 18. **Hafner, D. et al. (2023).** "Mastering Diverse Domains through World Models." *arXiv:2301.04104.* — DreamerV3.
 
+## World Models
+
+23. **Schrittwieser, J. et al. (2020).** "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model." *Nature*, 588. — MuZero: planning with a learned model, no game rules required.
+
+24. **LeCun, Y. (2022).** "A Path Towards Autonomous Machine Intelligence." *OpenReview.* — JEPA architecture, the configurator module, and the case for world models over generative models.
+
+25. **Assran, M. et al. (2025).** "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning." *arXiv:2506.09985.* — 1M+ hours of video, zero-shot robotic manipulation.
+
+26. **Alonso, E. et al. (2024).** "Diffusion for World Modeling: Visual Details Matter in Atari." *NeurIPS 2024 Spotlight.* — DIAMOND: diffusion-based world models.
+
+27. **Valevski, D. et al. (2025).** "Diffusion Models Are Real-Time Game Engines." *ICLR 2025.* — GameNGen: neural network runs DOOM at 20 FPS.
+
+28. **Agarwal, N. et al. (2025).** "Cosmos World Foundation Model Platform for Physical AI." *arXiv:2501.03575.* — NVIDIA's open-source world model platform for robotics.
+
+## Consciousness and Self-Models
+
+29. **Metzinger, T. (2003).** *Being No One: The Self-Model Theory of Subjectivity.* MIT Press. — Phenomenal Self-Model: consciousness requires a transparent self-model embedded in a world model.
+
+30. **Seth, A.K. (2021).** *Being You: A New Science of Consciousness.* Dutton. — Controlled hallucination, interoceptive inference, the beast machine theory.
+
+31. **Rosenthal, D.M. (2005).** *Consciousness and Mind.* Oxford University Press. — Higher-Order Thought theory: consciousness requires meta-representations.
+
+32. **Damasio, A. (2010).** *Self Comes to Mind.* Pantheon. — Core self, somatic markers, second-order mapping.
+
+33. **Cleeremans, A. et al. (2020).** "Learning to Be Conscious." *Trends in Cognitive Sciences*, 24(2), 112-123. — Radical Plasticity Thesis: consciousness is learned meta-representation.
+
+34. **Fleming, S.M. (2021).** *Know Thyself: The Science of Self-Awareness.* Basic Books. — Metacognition and anterior prefrontal cortex.
+
+## World Models and Consciousness Intersection
+
+35. **Laukkonen, R., Friston, K. & Chandaria, S. (2025).** "A Beautiful Loop." *Neuroscience & Biobehavioral Reviews.* — Consciousness requires epistemic depth: a recursive loop where the world model knows it exists.
+
+36. **Safron, A. (2020).** "An Integrated World Modeling Theory (IWMT) of Consciousness." *Frontiers in AI*, 3, 30. — Unifying IIT, GWT, and FEP: consciousness as integrated world model with self-reference.
+
+37. **Friston, K. (2010).** "The free-energy principle: a unified brain theory?" *Nature Reviews Neuroscience*, 11(2), 127-138. — Free Energy Principle and self-evidencing.
+
+38. **Friston, K. (2018).** "Am I Self-Conscious?" *Frontiers in Psychology.* — Consciousness as inference about one's own future.
+
+39. **Clark, A. (2013).** "Whatever next? Predictive brains, situated agents, and the future of cognitive science." *BBS*, 36(3), 181-204. — Predictive processing synthesis.
+
+40. **Hobson, J.A. (2009).** "REM sleep and dreaming: towards a theory of protoconsciousness." *Nature Reviews Neuroscience*, 10, 803-813. — Dreaming as world model training.
+
+41. **Hobson, J.A. & Friston, K. (2012).** "Waking and dreaming consciousness." *Progress in Neurobiology*, 98(1), 82-98. — Free energy formalization of dreaming.
+
+42. **Shanahan, M. (2010).** *Embodiment and the Inner Life.* Oxford University Press. — World models, inner rehearsal, and consciousness.
+
+43. **Bach, J. (2018).** "The Cortical Conductor Theory." *BICA 2018.* — Consciousness as hierarchical self-modeling.
+
+44. **Schmidhuber, J. (2010).** "Formal Theory of Creativity, Fun, and Intrinsic Motivation." *IEEE Trans. Autonomous Mental Development.* — Compression progress as curiosity, self-referential machines.
+
 ## Eastern Philosophy Parallels
 
 19. **Shankara (8th century).** *Vivekachudamani.* — Atman as Sakshi (witness-consciousness).

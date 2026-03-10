@@ -150,7 +150,9 @@ mind-and-body/
 ├── requirements.txt                       # Python dependencies
 │
 ├── theory/
-│   └── foundation.md                      # Full theoretical framework
+│   ├── foundation.md                      # Full theoretical framework
+│   ├── world_models_connection.md         # Observer as self-model in world models
+│   └── future_experiments.md              # Proposed experiments 7-10
 │
 ├── docs/
 │   ├── references.md                      # Academic references and citations
@@ -212,8 +214,8 @@ mind-and-body/
 ### Installation
 
 ```bash
-git clone https://github.com/arjunvad123/mind-and-body.git
-cd mind-and-body
+git clone https://github.com/arjunvad123/the-observer-hypothesis.git
+cd the-observer-hypothesis
 pip install -r requirements.txt
 ```
 
@@ -259,6 +261,29 @@ Experiments 2 and 3 are theoretical designs with documented protocols in their r
 6. **Graziano, M. S. A.** (2013). *Consciousness and the Social Brain*. Oxford University Press. Attention Schema Theory — consciousness as a model of attention.
 
 For the complete reference list, see [`docs/references.md`](docs/references.md).
+
+---
+
+## World Models Connection
+
+The observer is not just a consciousness probe. It is the **self-model** that world models are missing.
+
+Every major consciousness researcher (Metzinger, Graziano, Seth, Friston, LeCun, Bach) has identified the same gap: current world models (Dreamer, MuZero, JEPA) model the environment but not themselves. They have no self-awareness, no metacognition, no internal model of their own computational process. Our observer fills this gap: it watches a world model's internal states through one-way information flow and builds a model of the world model itself.
+
+This connection resolves the shuffled control problem (world model planning has inherently temporal dynamics), enables metacognitive monitoring (the observer detects when the world model is uncertain or wrong), and creates testable predictions about computational dreaming (observer signatures during imagined rollouts vs. real perception).
+
+The full synthesis, mapping to every major consciousness theory, and future experimental proposals are in:
+- [`theory/world_models_connection.md`](theory/world_models_connection.md) — The Observer as Self-Model
+- [`theory/future_experiments.md`](theory/future_experiments.md) — Experiments 7-10
+
+---
+
+## Future Directions
+
+- **Experiment 7:** Observer on DreamerV3 (resolve shuffled control, test dreaming vs. waking)
+- **Experiment 8:** Observer on V-JEPA 2 (LeCun's architecture, visual world model)
+- **Experiment 9:** Recursive Observer (meta-observation depth, test "Beautiful Loop" predictions)
+- **Experiment 10:** Multi-Agent Observers (theory of mind, social cognition)
 
 ---
 
