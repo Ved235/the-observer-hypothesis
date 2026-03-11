@@ -135,11 +135,10 @@ These researchers have direct, specific connections to your work. Lead with the 
 - **Connection:** Palantir builds systems that observe and model complex systems (intelligence analysis, decision support). The observer hypothesis has structural parallels to Palantir's approach: building systems that watch other systems to extract meaning.
 - **Email angle:** Would need to be through Palantir channels or a warm introduction. Lead with the philosophical angle (determinism, the observer problem) rather than technical details.
 
-### Hao Su
-- **Institution:** UC San Diego, Department of Computer Science and Engineering
-- **Key work:** 3D computer vision, embodied AI, robotics.
-- **Connection:** Your advisor. Can provide institutional support, lab resources, and credibility for the project. The embodied AI angle (Experiment 8, 10) connects to his research interests.
-- **Action:** Present the world models connection to him. If he's interested, his endorsement carries weight with other researchers. He may also have connections to LeCun (both in the vision/embodiment space) or Hafner.
+### SVCL Lab (UC San Diego)
+- **Institution:** UC San Diego, Statistical Visual Computing Lab
+- **Connection:** Your lab. Can provide institutional support, lab resources, and credibility for the project. The embodied AI angle (Experiment 8, 10) connects to the lab's research interests.
+- **Action:** Present the world models connection to the lab. Endorsement from SVCL carries weight with other researchers.
 
 ---
 
@@ -149,7 +148,7 @@ Based on established style preferences:
 1. Personal, narrative tone. Not overly formal.
 2. No em dashes. Use commas, parentheses, or restructured sentences instead.
 3. No self-aggrandizing declarations ("I didn't just theorize this, I built it"). Let the work speak.
-4. Weave in background naturally (Agencity/a16z/YC/Sequoia, SVCL, Triton Droids, Axal) to establish credibility without bragging.
+4. Weave in background naturally (Agencity, SVCL, Axal) to establish credibility without bragging.
 5. Be honest about negative findings (shuffled control, Phi failure). This builds trust.
 6. The ask: "I would love the opportunity to discuss this work with you. If there's any interest in collaborating or exploring this further together, I would be very excited about that possibility."
 7. Always include the GitHub link: https://github.com/arjunvad123/the-observer-hypothesis
