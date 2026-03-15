@@ -287,7 +287,15 @@ The full synthesis, mapping to every major consciousness theory, and future expe
 
 ---
 
-## Authors
+## About
+
+**Arjun Vad** — ML Researcher at the Statistical Visual Computing Lab (SVCL), UC San Diego. Co-founder of Agencity. Previously built Axal, a compliance automation platform.
+
+This research began with a simple question about determinism and consciousness, and grew into a systematic experimental program testing whether observation alone gives rise to the properties science associates with consciousness. The work spans 6 experiments across 4 AI substrates (reinforcement learning, large language models, transformers, and liquid neural networks), with 11 consciousness probes and 4 control baselines.
+
+**Website:** [arjunvad123.github.io/the-observer-hypothesis](https://arjunvad123.github.io/the-observer-hypothesis/)
+
+### Authors
 
 - **Arjun Vad** — conception, experimental design, implementation, analysis
 - **Claude** (Anthropic) — research collaborator, theoretical development, code implementation
